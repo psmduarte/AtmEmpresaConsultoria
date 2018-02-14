@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="atmempresaconsultoria.cursoandroid.com.atmempresaconsultoria.EmpresaActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="37dp"
+        android:text="@string/empresa_detalhes"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="32dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="atmtotal.com/ Este processo de consolidação promovido no seio do Grupo José de Mello gerou um aumento muito considerável do negócio da manutenção, tendo o perímetro de empresas que constituem a ATM Manutenção Total registado, no final do exercício de 2015, um volume de vendas de 33,4 M€ e um EBITDA de 1,2 M€. Sobre A ATM – Assistência Total em Manutenção é a sociedade que utiliza como marca comercial ATM Manutenção Total e que resulta de um processo de fusão, concretizado em Março de 2016, entre a própria ATM – Assistência Total em Manutenção e a Efacec – Serviços de Manutenção e Assistência.  A origem histórica da ATM remonta a 1992, quando foi constituída a Efacec – Serviços de Manutenção e Assistência, que 12 anos depois atinge um volume de vendas de 10 M€.  Em 2005, com o objetivo de conferir maior dimensão e maior importância estratégica ao negócio da manutenção, a Efacec concretizou um conjunto de operações envolvendo sociedades que integravam o Grupo José de Mello, nomeadamente a aquisição da ATM – Assistência Total em Manutenção, que fazia parte do universo de participações CUF, a aquisição da carteira de clientes de uma sociedade de consultoria e engenharia, a Engimais, que fazia parte do universo de participações da José de Mello Imobiliária, e a integração de uma sociedade de conservação de infraestruturas, a BCI, que fazia parte do universo de participações Brisa.  Este processo de consolidação promovido no seio do Grupo José de Mello gerou um aumento muito considerável do negócio da manutenção, tendo o perímetro de empresas que constituem a ATM Manutenção Total registado, no final do exercício de 2015, um volume de vendas de 33,4 M€ e um EBITDA de 1,2 M€.  Com mais de 20 anos de experiência no mercado, a ATM dispõe de equipas altamente qualificadas e de uma oferta alargada de serviços, garantindo aos seus clientes um serviço de manutenção e assistência de excelência nos domínios da eletricidade, mecânica, AVAC, frio industrial, eletrónica médica e industrial, instrumentação, automação, pneumática e hidráulica.  Para responder aos desafios dos segmentos de mercado em que atua, a ATM conta com cerca de 381 colaboradores, com uma média de idades de 43,4 anos, uma antiguidade média na empresa de 10,4 anos e uma escolaridade média de 11,7 anos." />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
